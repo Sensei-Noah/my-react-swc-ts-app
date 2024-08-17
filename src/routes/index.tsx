@@ -1,5 +1,10 @@
 import { createFileRoute } from '@tanstack/react-router'
+import App from '../App'
 
 export const Route = createFileRoute('/')({
-  component: () => <div>Hello /!</div>,
+  component: IndexComponent,
 })
+
+function IndexComponent() {
+  return <App />
+}
