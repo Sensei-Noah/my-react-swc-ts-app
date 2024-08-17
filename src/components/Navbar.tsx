@@ -1,5 +1,9 @@
 import { Link } from '@tanstack/react-router'
 
+const activeStyle = {
+  fontWeight: 600,
+}
+
 const Navbar = () => {
   return (
     <nav
@@ -9,7 +13,7 @@ const Navbar = () => {
       <Link
         to="/"
         activeProps={{
-          className: 'font-bold',
+          style: activeStyle,
         }}
         activeOptions={{ exact: true }}
       >
@@ -18,7 +22,7 @@ const Navbar = () => {
       <Link
         to={'/about'}
         activeProps={{
-          className: 'font-bold',
+          style: activeStyle,
         }}
       >
         About
