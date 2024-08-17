@@ -1,4 +1,4 @@
 {
   "extends": ["stylelint-config-standard"],
-  "ignoreFiles": ["dist/**/*.css", "**/*.js"]
+  "ignoreFiles": ["dist/**/*.css", "build/**/*.css", "**/*.js"]
 }
