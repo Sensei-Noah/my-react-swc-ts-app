@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint --fix ./src && prettier -w ./src && stylelint **/*.css --fix",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "npx husky"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.47.1",
